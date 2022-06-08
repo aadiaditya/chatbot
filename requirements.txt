@@ -1,0 +1,11 @@
+flaskapp==1.0.5
+Flask-SQLAlchemy==2.5.1
+gunicorn==20.1.0
+munkres==1.1.4
+nltk==3.6.5
+Pillow==8.4.0
+pyngrok==5.1.0
+pywhatkit==5.3
+twilio==7.9.2
+urllib3==1.26.7
+wincertstore==0.2
