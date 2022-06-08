@@ -13,18 +13,18 @@ def bot():
     bot_resp= MessagingResponse()
     msg = bot_resp.message()
     # Applying bot logic
-    if 'hello' in user_msg:
-        msg.body("Hi there! welcome to whatsapp chatbot! please select SUBJECT to download the material 1.DS 2.MEFA 3.DAA 4.WT 5.PC 6.ABOUT CHATBOT ")
+    if 'hi' in user_msg:
+        msg.body("Hi there! welcome to whatsapp chatbot! please select SUBJECT to download the material \n 1.DS \n 2.MEFA \n 3.DAA \n 4.WT \n 5.PC \n 6.ABOUT CHATBOT")
     elif '1' in user_msg:
-        msg.body('Download DS Material From Following Link - https://bit.ly/3xbTThS ')
+        msg.body('Download DS Material From Following Link - https://bit.ly/3xbTThS . Thank you for using this bot.All the best for exams')
     elif '2' in user_msg:
-        msg.body("Download MEFA Material From Following Link - https://bit.ly/39dKuyd ")
+        msg.body("Download MEFA Material From Following Link - https://bit.ly/39dKuyd Thank you for using this bot.All the best for exams")
     elif '3' in user_msg:
-        msg.body("Download DAA Material From Following Link- https://bit.ly/39gaBob ")
+        msg.body("Download DAA Material From Following Link- https://bit.ly/39gaBob Thank you for using this bot.All the best for exams")
     elif '4' in user_msg:
-        msg.body('Download WT Material From Following Link-https://bit.ly/3O1YOZn')
+        msg.body('Download WT Material From Following Link-https://bit.ly/3O1YOZn Thank you for using this bot.All the best for exams')
     elif '5' in user_msg:
-        msg.body('Download PC Material From Following Link - https://bit.ly/3H0gqCw ')
+        msg.body('Download PC Material From Following Link - https://bit.ly/3H0gqCw  Thank you for using this bot.All the best for exams')
     elif '6' in user_msg:
         msg.body('All source code of this project github link - https://github.com/aadiaditya/chatbot  MADE WITH ❤️ BY SAI ADITYA')
     else:
