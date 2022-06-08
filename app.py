@@ -5,6 +5,10 @@ from twilio.twiml.messaging_response import MessagingResponse
 ## Init Flask APp
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return "<h1> Deployed to Heroku</h1>"
+
 @app.route('/bot', methods=['POST'])
 def bot():
   ## GEt user message
