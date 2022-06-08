@@ -18,7 +18,7 @@ def bot():
     msg = bot_resp.message()
     # Applying bot logic
     if 'hello' in user_msg:
-        msg.body("Hi there! How may I help you?")
+        msg.body("Hi there! How may I help youu?")
     elif 'machine learning' in user_msg:
         msg.body("Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence.")
         msg.body('You can learn Machine Learning from here https://www.youtube.com/c/MachineLearningHub')
