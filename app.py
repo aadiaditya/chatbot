@@ -28,7 +28,7 @@ def bot():
     elif '6' in user_msg:
         msg.body('All source code of this project github link - https://github.com/aadiaditya/chatbot  MADE WITH ❤️ BY SAI ADITYA')
     else:
-        msg.body("Sorry, Entered wrong option.Pls choose correct one")
+        msg.body("Sorry, Entered wrong option.Pls choose correct one /n pls send hi to start chatbot")
     return str(bot_resp)
 
 if __name__ == '__main__':
